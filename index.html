@@ -3,15 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Catálogo</title>
+<title>Tu estilo | Catálogo</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="top">
-<div><h1>Catálogo de productos</h1><p>Agregá productos al carrito y consultá por WhatsApp.</p></div>
+<div class="brand">
+<img class="logo" src="logo.png" alt="Tu estilo" onerror="this.style.display='none'">
+<div><span class="tag">Moda y accesorios</span><h1>Tu estilo</h1><p>Catálogo online · Atención de lunes a sábado de 09 a 19 hs.</p></div>
+</div>
 <button id="btnCarrito">Carrito <span id="contador">0</span></button>
 </header>
 <main>
+<section class="hero">
+<h2>Elegí tus productos favoritos</h2>
+<p>Agregalos al carrito y enviá tu consulta por WhatsApp. Te respondemos dentro del horario de atención.</p>
+</section>
 <section class="filtros">
 <input id="buscar" placeholder="Buscar producto...">
 <select id="categoria"><option value="todas">Todas las categorías</option></select>
@@ -20,13 +27,20 @@
 </main>
 <aside id="panel" class="panel">
 <div class="panel-box">
-<div class="panel-head"><h2>Carrito</h2><button id="cerrar">×</button></div>
+<div class="panel-head"><div><h2>Carrito</h2><p>Tu pedido queda guardado durante esta sesión.</p></div><button id="cerrar">×</button></div>
 <div id="items"></div>
+<div class="cliente-box">
+<label>Tu nombre<input id="clienteNombre" placeholder="Nombre"></label>
+<label>Tu teléfono<input id="clienteTelefono" placeholder="Ej: 095 167 187"></label>
+<label>Comentario<textarea id="clienteComentario" placeholder="Talle, color o consulta adicional"></textarea></label>
+</div>
 <div class="total">Total: <span id="total">$ 0</span></div>
 <button id="whatsapp" class="primary">Consultar por WhatsApp</button>
 <button id="vaciar">Vaciar carrito</button>
+<p class="horario">Horario de atención: lunes a sábado de 09 a 19 hs.</p>
 </div>
 </aside>
+<footer class="footer">Tu estilo · WhatsApp +598 95167187 · Lunes a sábado de 09 a 19 hs.</footer>
 <script src="app.js"></script>
 </body>
 </html>
