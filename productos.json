@@ -1,0 +1,14 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Producto de ejemplo",
+      "categoria": "Ejemplo",
+      "precio": "$ 890",
+      "descripcion": "Este es un producto de prueba. Podés editarlo o eliminarlo desde el panel.",
+      "imagen": "img/productos/sin-foto.svg",
+      "disponible": true,
+      "destacado": false
+    }
+  ]
+}
