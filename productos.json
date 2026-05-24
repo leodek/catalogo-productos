@@ -9,6 +9,15 @@
       "imagen": "img/productos/sin-foto.svg",
       "disponible": true,
       "destacado": false
+    },
+    {
+      "id": "1779657836104",
+      "nombre": "yayito",
+      "categoria": "Ropa",
+      "precio": "890",
+      "descripcion": "nadaaa",
+      "imagen": "img/productos/1779657834222-yayito.png",
+      "disponible": true
     }
   ]
 }
