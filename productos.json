@@ -8,6 +8,16 @@
       "descripcion": "nadaaa",
       "imagen": "img/productos/1779657834222-yayito.png",
       "disponible": true
+    },
+    {
+      "id": "VES1",
+      "codigo": "VES1",
+      "nombre": "VESTIDO",
+      "categoria": "VESTIDO",
+      "precio": "$1000",
+      "descripcion": "Vestido rojo",
+      "imagen": "img/productos/1779660488770-ves1-vestido.jpeg",
+      "disponible": true
     }
   ]
 }
