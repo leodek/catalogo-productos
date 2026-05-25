@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Panel | Tu estilo</title>
-<link rel="stylesheet" href="../styles.css?v=20260524-10">
+<link rel="stylesheet" href="../styles.css?v=20260524-11">
 </head>
 <body>
 <main class="admin">
@@ -17,11 +17,11 @@
 </header>
 <section class="admin-grid">
 <div class="box"><h2>Conexión</h2><label>Owner<input id="owner" value="leodek"></label><label>Repositorio<input id="repo" value="catalogo-productos"></label><label>Rama<input id="branch" value="main"></label><label>Token<input id="token" type="password" placeholder="github_pat_..."></label><div class="acciones"><button id="guardarConfig" class="primary">Guardar conexión</button><button id="cargar" type="button">Cargar productos</button></div><div id="estado" class="estado">Sin conexión.</div></div>
-<form id="form" class="box"><h2 id="tituloForm">Nuevo producto</h2><input id="pid" type="hidden"><label>Código<input id="codigo" placeholder="Ej: BUF-001" required></label><label>Nombre<input id="nombre" required></label><label>Categoría<input id="cat" required></label><label>Precio<input id="precio" placeholder="$ 890" required></label><label>Cantidad disponible<input id="cantidad" type="number" min="0" step="1" value="0" required></label><label>Colores<input id="colores" placeholder="Ej: Rojo, Negro, Blanco"></label><label>Talles<input id="talles" placeholder="Ej: S, M, L, XL"></label><label>Descripción<textarea id="desc"></textarea></label><label>Fotos<input id="foto" type="file" accept="image/*" multiple></label><div id="imagenesActuales" class="estado">Sin imágenes guardadas.</div><label>Disponible<select id="disp"><option value="true">Sí</option><option value="false">No</option></select></label><div class="acciones"><button id="guardarProducto" class="primary" type="submit">Guardar producto</button><button id="limpiar" type="button">Limpiar</button></div></form>
+<form id="form" class="box"><h2 id="tituloForm">Nuevo producto</h2><input id="pid" type="hidden"><label>Código<input id="codigo" placeholder="Ej: BUF-001" required></label><label>Nombre<input id="nombre" required></label><label>Categoría<input id="cat" required></label><label>Precio<input id="precio" placeholder="$ 890" required></label><label>Cantidad disponible<input id="cantidad" type="number" min="0" step="1" value="0" required></label><label>Colores<input id="colores" placeholder="Ej: Rojo, Negro, Blanco"></label><label>Talles<input id="talles" placeholder="Ej: S, M, L, XL"></label><label>Descripción<textarea id="desc"></textarea></label><label>Fotos nuevas<input id="foto" type="file" accept="image/*" multiple></label><div id="imagenesActuales" class="estado">Sin imágenes guardadas.</div><label>Disponible<select id="disp"><option value="true">Sí</option><option value="false">No</option></select></label><div class="acciones"><button id="guardarProducto" class="primary" type="submit">Guardar producto</button><button id="limpiar" type="button">Limpiar</button></div></form>
 </section>
 <section class="box" style="margin-top:16px"><h2>Productos guardados</h2><div class="admin-filtros"><input id="filtroNombre" placeholder="Filtrar por nombre..."><input id="filtroCodigo" placeholder="Filtrar por código..."></div><div id="productos"></div></section>
 <section class="box" style="margin-top:16px"><h2>Visitas</h2><div id="visitasBox" class="estado">Contador real pendiente de configurar con servicio externo.</div></section>
 </main>
-<script src="admin-v5.js?v=20260524-1"></script>
+<script src="admin-v6.js?v=20260524-1"></script>
 </body>
 </html>
