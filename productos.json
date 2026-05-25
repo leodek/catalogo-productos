@@ -20,6 +20,24 @@
       "descripcion": "Vestido morley afelpado",
       "imagen": "img/productos/1779669951425-vest1-vestido-morley.jpeg",
       "disponible": true
+    },
+    {
+      "id": "BUZ12",
+      "codigo": "BUZ12",
+      "nombre": "BUZO CON PELUCHE INTERNO",
+      "categoria": "INVIERNO",
+      "precio": "450",
+      "colores": [
+        "NEGRO"
+      ],
+      "talles": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "descripcion": "BUSO DE HILO CON INTERIOR DE PELUCHE",
+      "imagen": "img/productos/1779670261522-buz12-buzo-con-peluche-interno.jpeg",
+      "disponible": true
     }
   ]
 }
