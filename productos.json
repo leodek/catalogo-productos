@@ -21,6 +21,10 @@
       ],
       "descripcion": "Vestido morley afelpado",
       "imagen": "img/productos/1779671051555-vest1-vestido-morley.jpeg",
+      "imagenes": [
+        "img/productos/1779671051555-vest1-vestido-morley.jpeg",
+        "img/productos/1779672299514-2aeb28c5a49ef-vest1-vestido-morley.jpeg"
+      ],
       "disponible": true
     },
     {
