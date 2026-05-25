@@ -29,6 +29,8 @@
       "nombre": "BUZO",
       "categoria": "BUZOS",
       "precio": "$450",
+      "cantidad": 0,
+      "stock": 0,
       "colores": [
         "Negro"
       ],
@@ -38,8 +40,8 @@
         "XL"
       ],
       "descripcion": "",
-      "imagen": "img/productos/1779670412173-buz1-buzo.jpeg",
-      "disponible": true
+      "imagen": "img/productos/1779671075568-buz1-buzo.jpeg",
+      "disponible": false
     },
     {
       "id": "CONJ1",
