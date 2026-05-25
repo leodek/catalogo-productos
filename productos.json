@@ -20,6 +20,24 @@
       "descripcion": "Vestido morley afelpado",
       "imagen": "img/productos/1779669951425-vest1-vestido-morley.jpeg",
       "disponible": true
+    },
+    {
+      "id": "BUZ1",
+      "codigo": "BUZ1",
+      "nombre": "BUZO",
+      "categoria": "BUZOS",
+      "precio": "$450",
+      "colores": [
+        "Negro"
+      ],
+      "talles": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "descripcion": "",
+      "imagen": "img/productos/1779670412173-buz1-buzo.jpeg",
+      "disponible": true
     }
   ]
 }
