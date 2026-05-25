@@ -38,6 +38,30 @@
       "descripcion": "",
       "imagen": "img/productos/1779670412173-buz1-buzo.jpeg",
       "disponible": true
+    },
+    {
+      "id": "CONJ1",
+      "codigo": "CONJ1",
+      "nombre": "CONJUNTO DE ROPA INTERIOR",
+      "categoria": "ROPA INTERIOR",
+      "precio": "$290",
+      "cantidad": 6,
+      "stock": 6,
+      "colores": [
+        "Negro",
+        "Azul",
+        "Blanco",
+        "Celeste",
+        "Rojo"
+      ],
+      "talles": [
+        "105",
+        "110",
+        "115"
+      ],
+      "descripcion": "",
+      "imagen": "img/productos/1779670980250-conj1-conjunto-de-ropa-interior.jpeg",
+      "disponible": true
     }
   ]
 }
