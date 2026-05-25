@@ -1,3 +1,25 @@
 {
-  "productos": []
+  "productos": [
+    {
+      "id": "VEST1",
+      "codigo": "VEST1",
+      "nombre": "VESTIDO MORLEY",
+      "categoria": "VESTIDOS",
+      "precio": "$350",
+      "colores": [
+        "Rojo",
+        "Gris",
+        "Marrón",
+        "Negro"
+      ],
+      "talles": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "descripcion": "Vestido morley afelpado",
+      "imagen": "img/productos/1779669951425-vest1-vestido-morley.jpeg",
+      "disponible": true
+    }
+  ]
 }
