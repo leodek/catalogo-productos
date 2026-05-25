@@ -1,14 +1,3 @@
 {
-  "productos": [
-    {
-      "id": "21312",
-      "codigo": "21312",
-      "nombre": "123",
-      "categoria": "123",
-      "precio": "$12312",
-      "descripcion": "",
-      "imagen": "",
-      "disponible": true
-    }
-  ]
+  "productos": []
 }
