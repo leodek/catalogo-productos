@@ -6,6 +6,8 @@
       "nombre": "VESTIDO MORLEY",
       "categoria": "VESTIDOS",
       "precio": "$350",
+      "cantidad": 0,
+      "stock": 0,
       "colores": [
         "Rojo",
         "Gris",
@@ -19,7 +21,7 @@
       ],
       "descripcion": "Vestido morley afelpado",
       "imagen": "img/productos/1779669951425-vest1-vestido-morley.jpeg",
-      "disponible": true
+      "disponible": false
     },
     {
       "id": "BUZ1",
